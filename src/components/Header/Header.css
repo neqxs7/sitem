@@ -1,0 +1,37 @@
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	height: auto;
+	width: 100%;
+	z-index: 9999;
+	background-color: var(--header-bg);
+	box-shadow: 0 0 10px var(--box-shadow);
+	padding: 2rem;
+	transition: 0.5s background;
+}
+
+nav a {
+	color: var(--main-text);
+	text-decoration: none;
+	font-size: 2.5rem;
+	font-weight: 700;
+	transition: 0.2s ease;
+}
+
+nav a:hover {
+	color: var(--second-color);
+}
+
+nav .theme i {
+	font-size: 3rem;
+	cursor: pointer;
+	transition: 0.2s ease;
+	color: var(--main-text);
+}
+
+nav .theme i:hover {
+	color: var(--second-color);
+}
